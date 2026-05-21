@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Royette B. Miranda - GRC Professional</title>
+   <!-- Tailwind CSS for styling -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Lucide Icons -->
+   <script src="https://unpkg.com/lucide@latest"></script>
+   <script>
+       tailwind.config = {
+           theme: {
+               extend: {
+                   colors: {
+                       primary: '#14532d', // Trustworthy dark green (Tailwind green-900)
+                       secondary: '#4b5563', // Warm gray
+                       accent: '#10b981' // Emerald accent
+                   }
+               }
+           }
+       }
+   </script>
+   <style>
+       body {
+           font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+           background-color: #f8fafc;
+       }
+       /* Logo Badge Styles */
+       .logo-badge {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-weight: 800;
+           border-radius: 6px;
+           letter-spacing: 0.5px;
+       }
+       .logo-isaca { background-color: #E2231A; color: white; }
+       .logo-isc2 { background-color: #4A4A4A; border-bottom: 3px solid #00A651; color: white; }
+       .logo-pecb { background-color: #004F9F; color: white; }
+       .logo-certiprof { background-color: #00B1EB; color: white; }
+       .logo-skillfront { background-color: #0B2545; color: white; }
+       .logo-infosec { background-color: #FF5A00; color: white; }
+       .logo-sixsigma { background-color: #FACC15; color: #1E293B; }
+   </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+
+   <!-- Navigation -->
+   <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div class="flex justify-between h-16 items-center">
+               <div class="flex-shrink-0 font-bold text-xl text-primary tracking-tight">
+                   R. Miranda
+               </div>
+               <div class="hidden md:flex space-x-8">
+                   <a href="#about" class="text-secondary hover:text-primary transition-colors font-medium">About</a>
+                   <a href="#competencies" class="text-secondary hover:text-primary transition-colors font-medium">Competencies</a>
+                   <a href="#experience" class="text-secondary hover:text-primary transition-colors font-medium">Experience</a>
+                   <a href="#certifications" class="text-secondary hover:text-primary transition-colors font-medium">Certs & Education</a>
+                   <a href="#contact" class="text-secondary hover:text-primary transition-colors font-medium">Contact</a>
+               </div>
+           </div>
+       </div>
+   </nav>
+
+
+   <!-- Hero Section -->
+   <section id="about" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+       <div class="flex-1 space-y-6 text-center md:text-left">
+           <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+               Royette B. Miranda
+           </h1>
+           <h2 class="text-2xl font-bold text-primary">Cybersecurity Governance Manager & IT Risk Lead</h2>
+           <div class="flex flex-wrap justify-center md:justify-start gap-2 text-xs font-bold text-slate-500 uppercase tracking-wider mb-4">
+               <span>MBA</span> • <span>CC</span> • <span>CISA</span> • <span>ISO 27001 LI</span> • <span>ISO 31000 CRM</span> • <span>ISO 22301 LI</span>
+           </div>
+           <p class="text-lg text-slate-600 max-w-2xl mx-auto md:mx-0">
+               Accomplished Governance, Risk, and Compliance (GRC) leader with a proven track record of transforming enterprise security postures and aligning stringent regulatory requirements with strategic business goals. Expert in orchestrating complex IT risk frameworks, directing high-stakes APT incident responses, and architecting resilient compliance ecosystems (NIST CSF, ISO, PCI-DSS, BSP) to safeguard organizational assets and drive sustainable growth.
+           </p>
+           <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
+               <a href="#contact" class="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-green-900 transition-colors shadow-md">
+                   Get in Touch
+               </a>
+               <a href="#experience" class="bg-white text-primary border border-primary px-6 py-3 rounded-lg font-medium hover:bg-green-50 transition-colors shadow-sm">
+                   View Experience
+               </a>
+               <a href="https://www.linkedin.com/in/royette88" target="_blank" rel="noopener noreferrer" class="bg-[#0A66C2] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#084e96] transition-colors shadow-md flex items-center gap-2">
+                   <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg> Connect on LinkedIn
+               </a>
+           </div>
+       </div>
+       <!-- Profile Picture -->
+       <div class="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-white shadow-xl flex items-center justify-center overflow-hidden shrink-0 bg-slate-200">
+           <img src="Messenger_creation_6008CB49-393E-421B-8146-D4A466E29CCA.jpeg" alt="Royette B. Miranda" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'text-7xl font-bold text-slate-400\'>RM</span>';">
+       </div>
+   </section>
+
+
+   <!-- Core Competencies Section -->
+   <section id="competencies" class="py-20 bg-white">
+       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+           <h2 class="text-3xl font-bold text-center mb-12 text-slate-900">Core Competencies & Frameworks</h2>
+          
+           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+               <!-- Card 1: Frameworks -->
+               <div class="bg-slate-50 rounded-xl p-8 border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                   <div class="w-12 h-12 bg-green-100 text-primary rounded-lg flex items-center justify-center mb-6">
+                       <i data-lucide="shield-check"></i>
+                   </div>
+                   <h3 class="text-xl font-bold mb-4 text-slate-800">Compliance & Frameworks</h3>
+                   <div class="flex flex-wrap gap-2">
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">NIST CSF</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">ISO 27001 / 31000 / 22301</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">SOC 2</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">PCI-DSS</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">CIS</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">COBIT</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">BSP MORNBFI</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">GDPR / PDPA / AMLC</span>
+                   </div>
+               </div>
+
+
+               <!-- Card 2: Risk -->
+               <div class="bg-slate-50 rounded-xl p-8 border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                   <div class="w-12 h-12 bg-green-100 text-primary rounded-lg flex items-center justify-center mb-6">
+                       <i data-lucide="alert-triangle"></i>
+                   </div>
+                   <h3 class="text-xl font-bold mb-4 text-slate-800">Risk Management</h3>
+                   <div class="flex flex-wrap gap-2">
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Enterprise Risk Frameworks</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">IT Risk Assessments</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">OCTAVE Analysis</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Vendor Security Assessments</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Digital Forensics</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Incident Response (APT)</span>
+                   </div>
+               </div>
+
+
+               <!-- Card 3: Governance -->
+               <div class="bg-slate-50 rounded-xl p-8 border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                   <div class="w-12 h-12 bg-green-100 text-primary rounded-lg flex items-center justify-center mb-6">
+                       <i data-lucide="file-text"></i>
+                   </div>
+                   <h3 class="text-xl font-bold mb-4 text-slate-800">Governance & Audit</h3>
+                   <div class="flex flex-wrap gap-2">
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">ISMS Policy Creation</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Audit Facilitation (Internal/External)</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">BCP / DRP Development</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Metrics & Scorecards</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Cybersecurity Awareness</span>
+                       <span class="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-600">Financial & SMSF Audits</span>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Experience Section -->
+   <section id="experience" class="py-20 bg-slate-50">
+       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+           <h2 class="text-3xl font-bold text-center mb-12 text-slate-900">Professional Experience</h2>
+          
+           <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+              
+               <!-- Job 1 -->
+               <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                   <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-primary text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                       <i data-lucide="shield" class="w-5 h-5"></i>
+                   </div>
+                   <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                       <div class="flex items-center justify-between mb-1">
+                           <h3 class="font-bold text-lg text-slate-900">Cybersecurity Governance Manager</h3>
+                       </div>
+                       <div class="text-sm font-medium text-primary mb-4">Philippine Digital Asset Exchange (PDAX) | April 2026 - Present</div>
+                       <ul class="list-disc list-outside ml-5 text-sm text-slate-600 space-y-3">
+                           <li><strong>Governance Initiatives & Projects:</strong> Handled incident response for an APT-level threat, coordinating with regulators and public authorities. Performed a comprehensive enterprise-wide information security program overhaul across all cybersecurity pillars. Conducted comprehensive audits of access reviews across all organizational applications.</li>
+                           <li><strong>Policy Management:</strong> Developed, maintained, and enforced cybersecurity policies, standards, and procedures. Established control frameworks aligned with NIST CSF, ISO 27001, CIS, and PCI-DSS. Conducted periodic policy reviews, control assessments, and managed policy exceptions and risk acceptance processes.</li>
+                           <li><strong>Risk & Compliance:</strong> Led cybersecurity risk assessments across technologies, vendors, projects, and products. Maintained risk registers and KRIs/KPIs. Supported internal/external regulatory audits and ensured compliance with BSP MORNBFI, AMLC, PDPA, GDPR, and SOC 2. Tracked remediation activities for findings and vulnerabilities.</li>
+                           <li><strong>Metrics & Reporting:</strong> Prepared cybersecurity governance reports, dashboards, and cyber posture scorecards. Led monthly and quarterly governance meetings with internal stakeholders and maintained strict audit trails, evidence, and documentation.</li>
+                           <li><strong>Awareness & Training:</strong> Implemented enterprise-wide cybersecurity awareness programs. Coordinated phishing simulations, awareness content, and training plans while tracking participation to measure maturity improvements.</li>
+                           <li><strong>Third-Party Security:</strong> Evaluated vendor cybersecurity capability maturity, maintained third-party security assessments, and ensured adherence to contractual and regulatory cybersecurity obligations.</li>
+                           <li><strong>Incident Preparedness:</strong> Ensured cyber incident response policies and playbooks exist and are routinely tested. Coordinated tabletop exercises, disaster recovery (DR) testing, and business continuity checks, actively tracking readiness gaps and remediation plans.</li>
+                       </ul>
+                   </div>
+               </div>
+
+
+               <!-- Job 2 -->
+               <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                   <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-200 text-slate-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                       <i data-lucide="briefcase" class="w-5 h-5"></i>
+                   </div>
+                   <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                       <div class="flex items-center justify-between mb-1">
+                           <h3 class="font-bold text-lg text-slate-900">IT Risk and Business Continuity Lead</h3>
+                       </div>
+                       <div class="text-sm font-medium text-primary mb-4">CIS Bayad Center | October 2023 - March 2026</div>
+                       <ul class="list-disc list-outside ml-5 text-sm text-slate-600 space-y-2">
+                           <li>Acted as an independent control function responsible for IT risk management, developing and leading the implementation of the enterprise risk management framework.</li>
+                           <li>Enhanced and aligned risk frameworks with industry best practices, including ISO 27001, PCI DSS, COBIT, NIST, ISO 31000, ISO 22301, and Bangko Sentral Memorandum Circulars (951, 808, 982, 1019, 1122, 1140, 1137), as well as MORNBFI.</li>
+                           <li>Assisted the Risk Head in risk policy development, risk analysis, implementation of risk methodologies, and risk reporting.</li>
+                           <li>Conducted periodic IT risk reviews and provided recommendations to identify risks or non-conformity issues.</li>
+                           <li>Assisted in the creation and implementation of ISMS Policies including Access Controls, Business Continuity, Disaster Recovery, Incident Management, Project Management, Vendor Management, Cryptography, Cybersecurity Controls (SIEM, Firewalls, vulnerability management), Patch Management, and Change Management.</li>
+                           <li>Performed IT Risk Assessments, established KRIs, and enhanced BCM, BCP, and DRP for IT and Cybersecurity.</li>
+                           <li>Initiated and performed a comprehensive Risk Awareness Program for all employees.</li>
+                           <li>Established processes for the risk assessment of Assets, Events, and Processes. Improved and created Risk Control and Self-Assessments (RCSA), Risk Incident Reports, and OCTAVE Analysis for IT Assets.</li>
+                           <li>Performed standalone risk assessments and forensic investigations using Digital Forensic Tools (log review and analysis, data exfiltration analysis, and filing forensic reports) for special cases.</li>
+                       </ul>
+                   </div>
+               </div>
+
+
+               <!-- Job 3 -->
+               <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                   <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-200 text-slate-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                       <i data-lucide="calculator" class="w-5 h-5"></i>
+                   </div>
+                   <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                       <div class="flex items-center justify-between mb-1">
+                           <h3 class="font-bold text-lg text-slate-900">Intermediate Auditor (Financial & Compliance)</h3>
+                       </div>
+                       <div class="text-sm font-medium text-primary mb-4">AMW Audit | January 2023 - October 2023</div>
+                       <ul class="list-disc list-outside ml-5 text-sm text-slate-600 space-y-2">
+                           <li>Assisted the SMSF Manager in the planning, execution, and reporting of SMSF audits in compliance with Australian Auditing Standards and SIS Regulations.</li>
+                           <li>Performed Risk Assessments based on the nature of clients' historical data and tailored audit tests for high-risk accounts.</li>
+                           <li>Monitored and reviewed the prior year's client action plans regarding audit items in high-risk accounts.</li>
+                           <li>Liaised with Accountants to compile all financial data in relation to investment strategies and asset valuations for the audit of SMSF financial reports.</li>
+                           <li>Maintained SMSF registers, regulatory minutes, and forms to ensure strict compliance with SIS and ATO regulations.</li>
+                           <li>Generated all necessary reports, including engagement letters, management letters, and financial reports.</li>
+                           <li>Researched and resolved issues associated with client audit work, applying a solid understanding of Trust Law, various entity structures, and associated tax implications.</li>
+                       </ul>
+                   </div>
+               </div>
+
+
+               <!-- Job 4 -->
+               <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                   <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-200 text-slate-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                       <i data-lucide="line-chart" class="w-5 h-5"></i>
+                   </div>
+                   <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                       <div class="flex items-center justify-between mb-1">
+                           <h3 class="font-bold text-lg text-slate-900">Assurance Associate for Tech & Technical Groups</h3>
+                       </div>
+                       <div class="text-sm font-medium text-primary mb-4">PwC Philippines | September 2021 - January 2023</div>
+                       <ul class="list-disc list-outside ml-5 text-sm text-slate-600 space-y-2">
+                           <li>Took an active role in delivering high-quality assurance services to a diverse range of clients.</li>
+                           <li>Collaborated closely with experienced engagement managers and senior associates across all phases of audits, from initial planning to execution and completion.</li>
+                           <li>Assisted in drafting deliverables and interacting with clients regarding significant matters and internal control recommendations, ensuring day-to-day organizational and technical matters were handled efficiently.</li>
+                           <li>Conducted technical research, consulted with specialists, and drafted documentation for significant matters related to assigned areas.</li>
+                           <li>Designed appropriate audit procedures, tailored audit steps, and performed Tests of Controls in operations relating to all assets listed in Financial Statement line items.</li>
+                           <li>Reviewed compliance with listed policies, guidelines, and procedures.</li>
+                           <li>Performed Risk Assessments, aligned heat maps into financial accounts, monitored high-risk accounts, and executed multiple tailored tests.</li>
+                           <li>Checked for proper segregation of duties of employees impacting operations based on performance materiality.</li>
+                           <li>Performed thorough examinations of documents and artifacts through interviews, walkthroughs, observations, recalculations, reperformance, and test of one.</li>
+                       </ul>
+                   </div>
+               </div>
+
+
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Certifications Section -->
+   <section id="certifications" class="py-20 bg-white border-t border-slate-100">
+       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <h2 class="text-3xl font-bold text-center mb-12 text-slate-900">Licenses & Certifications</h2>
+          
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              
+               <!-- CISA -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-isaca text-[10px]">ISACA</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">Certified Information Systems Auditor (CISA)</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 242464584</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">ISACA</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- ISC2 CC -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-isc2 text-sm">ISC²</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">Certified in Cybersecurity (CC)</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 1814792</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">ISC²</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- PECB ISO 27001 -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-pecb text-sm">PECB</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">ISO/IEC 27001 Lead Implementer</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 1149768-2024-05</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">PECB</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- PECB ISO 31000 -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-pecb text-sm">PECB</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">ISO 31000 Certified Risk Manager</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: RMM1149768-2024-08</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">PECB</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- PECB ISO 22301 -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-pecb text-sm">PECB</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">ISO 22301 Lead Implementer</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: BCLI1149768-2025-07</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">PECB</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- CertiProf CAPC -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-certiprof text-[9px] text-center px-1">CertiProf</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">Cybersecurity Awareness Professional</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 350fafc9</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">CertiProf</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- CertiProf CSSWB -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-certiprof text-[9px] text-center px-1">CertiProf</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">Lean Six Sigma White Belt (CSSWB)</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 98652412</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">CertiProf</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Skillfront ISO 20000 -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-skillfront text-[9px] text-center">SkillFront</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">ISO/IEC 20000 IT Service Mgmt.</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 13724048742293</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">SkillFront</p>
+                       </div>
+                   </div>
+               </div>
+              
+               <!-- Skillfront ISO 9001 -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-skillfront text-[9px] text-center">SkillFront</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">ISO 9001 Quality Management</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 62659216271395</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">SkillFront</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Skillfront Scrum -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-skillfront text-[9px] text-center">SkillFront</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">Scrum Fundamentals (CASF)</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 29804835436719</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">SkillFront</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- InfoSec ESRM -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-infosec text-[10px]">InfoSec</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">Enterprise Security Risk Mgmt</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: V9XZ24-PATH-6899641</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">InfoSec</p>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Six Sigma Yellow Belt -->
+               <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                   <div class="flex items-start gap-4 mb-3">
+                       <div class="w-12 h-12 flex-shrink-0 logo-badge logo-sixsigma text-[9px] text-center leading-tight">6sigma<br>study</div>
+                       <div>
+                           <h4 class="font-bold text-slate-800 leading-tight">Six Sigma Yellow Belt (SSYB)</h4>
+                           <p class="text-xs text-slate-500 mt-1">ID: 902534</p>
+                           <p class="text-xs font-semibold text-slate-700 mt-0.5">6sigmastudy</p>
+                       </div>
+                   </div>
+               </div>
+
+
+           </div>
+
+
+           <!-- Education -->
+           <div class="mt-16 text-center">
+               <h3 class="text-2xl font-bold mb-6 text-slate-900">Education</h3>
+               <div class="flex flex-col md:flex-row justify-center gap-6">
+                   <div class="bg-white px-8 py-6 rounded-xl border border-slate-200 shadow-sm">
+                       <div class="flex justify-center mb-3 text-primary"><i data-lucide="graduation-cap" class="w-8 h-8"></i></div>
+                       <h4 class="font-bold text-lg text-slate-800">Master's in Business Administration</h4>
+                       <p class="text-slate-600 text-sm">Philippine Christian University - Manila (2023-2025)</p>
+                   </div>
+                   <div class="bg-white px-8 py-6 rounded-xl border border-slate-200 shadow-sm">
+                       <div class="flex justify-center mb-3 text-primary"><i data-lucide="book-open" class="w-8 h-8"></i></div>
+                       <h4 class="font-bold text-lg text-slate-800">Bachelor of Science in Accountancy</h4>
+                       <p class="text-slate-600 text-sm">De La Salle University - Dasmariñas (2016-2021)</p>
+                   </div>
+               </div>
+           </div>
+
+
+       </div>
+   </section>
+
+
+   <!-- Footer / Contact -->
+   <footer id="contact" class="bg-slate-900 text-white py-16">
+       <div class="max-w-4xl mx-auto px-4 text-center">
+           <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+           <p class="text-slate-400 mb-8 max-w-xl mx-auto">
+               Based in Imus, Cavite, Philippines. I am available for discussions regarding GRC opportunities, audits, and framework implementation strategies.
+           </p>
+           <div class="flex justify-center gap-6 mb-8 text-slate-300 font-medium">
+               <span class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> +639471066514</span>
+               <span class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Cavite, PH</span>
+           </div>
+           <div class="flex justify-center gap-6 mb-12">
+               <a href="mailto:rovettemiranda@gmail.com" class="bg-white/10 hover:bg-white/20 p-4 rounded-full transition-colors flex items-center justify-center" aria-label="Email">
+                   <i data-lucide="mail" class="w-6 h-6"></i>
+               </a>
+               <a href="https://www.linkedin.com/in/royette88" target="_blank" rel="noopener noreferrer" class="bg-[#0A66C2] hover:bg-[#084e96] p-4 rounded-full transition-colors flex items-center justify-center text-white shadow-lg" aria-label="LinkedIn">
+                   <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+               </a>
+           </div>
+           <p class="text-slate-500 text-sm">
+               &copy; <span id="year"></span> Royette B. Miranda. All rights reserved.
+           </p>
+       </div>
+   </footer>
+
+
+   <script>
+       // Initialize Lucide Icons
+       lucide.createIcons();
+      
+       // Set current year in footer
+       document.getElementById('year').textContent = new Date().getFullYear();
+   </script>
+</body>
+</html>
+
