@@ -628,3 +628,30 @@ body { color: #dfe9e4; background: #07110f; }
   .education-card { padding: 22px; }
   .next-page { padding-block: 44px; }
 }
+
+/* Final desktop scale balance */
+:root { --shell: min(1200px, calc(100vw - 48px)); }
+.hero { min-height: 600px; padding-top: 96px; }
+.hero-layout { grid-template-columns: minmax(0, 1.65fr) minmax(280px, .35fr); gap: 54px; }
+.profile-panel { width: 100%; max-width: 320px; min-height: 350px; justify-self: end; padding: 15px; }
+.portrait-stage { min-height: 218px; margin-block: 10px; }
+.profile-photo { object-position: center 22%; }
+.profile-topline { font-size: 8px; }
+.profile-meta { gap: 12px; padding-top: 12px; }
+.profile-meta p { max-width: 145px; font-size: 10px; }
+.profile-meta li { padding: 4px 6px; font-size: 7px; }
+.capability-rail { margin-top: 26px; }
+.page-hero { min-height: 400px; padding-top: 100px; }
+
+@media (max-width: 980px) {
+  :root { --shell: min(100% - 36px, 900px); }
+  .hero-layout { grid-template-columns: 1fr; }
+  .profile-panel { max-width: 320px; min-height: 350px; justify-self: start; }
+}
+
+@media (max-width: 760px) {
+  :root { --shell: calc(100% - 28px); }
+  .hero { min-height: auto; padding-top: 96px; }
+  .profile-panel { width: 100%; max-width: 320px; min-height: 340px; }
+  .page-hero { min-height: 410px; padding-top: 100px; }
+}
